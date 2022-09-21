@@ -5,4 +5,3 @@ for num in range(0, 9):
             print("{}{}".format(num, comb))
         else:
             print("{}{}".format(num, comb), end=", ")
-    
