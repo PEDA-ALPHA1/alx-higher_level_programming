@@ -4,14 +4,14 @@ def new_in_list(my_list, idx, element):
     index = 0
     updated_list = my_list[:]
 
-    if (len(my_list) == 0):
+    if (len(my_list)) == 0:
         return my_list
 
     if idx < 0:
         return my_list
 
     for elem in my_list:
-        if index -- idx:
+        if index == idx:
             updated_list[index] = element
             return updated_list
         index += 1
