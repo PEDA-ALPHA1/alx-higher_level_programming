@@ -6,6 +6,8 @@ def safe_print_integer(value):
         return (True)
     except:
         return (False)
+
+
 '''
 def safe_print_integer(value):
    try:
