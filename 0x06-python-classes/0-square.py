@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
-"""An empty class"""
+"""Square is the class name"""
 
 
 class Square:
+    """Class is empty so we will pass"""
     pass  # pass as empty
