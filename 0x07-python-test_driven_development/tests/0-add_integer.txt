@@ -1,0 +1,33 @@
+Add integers
+==============
+>>> add_integer = __import__('0-add_integer').add_integer
+
+	' Test for a's input only '
+	>>> add_integer(2)
+	100
+	
+	' Test for both a and b's input '
+	>>> add_integer(60, 20)
+	80
+
+	' Test for complex numbers '
+	>>> add_integer(5 + 2j)
+	Trace (most recent call last):
+	...
+	TypeError: a must be an integer
+
+	' Test for 'a' as anegative numbers '
+	>>> add_integer(-3)
+	95
+
+	' Test for both 'a' and 'b' as negative numbers '
+	>>> add_integer(-5, -4)
+	-9
+
+	' Test for 'a' as a float '
+	>>> add_integer(2.5)
+	100.5
+
+	' Test for both 'a' and 'b' as a float
+	>>> add_integer(23.2, 26.8)
+	50
