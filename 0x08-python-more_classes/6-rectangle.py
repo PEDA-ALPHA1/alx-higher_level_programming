@@ -17,7 +17,8 @@ class Rectangle():
         self.height = height
 
         # adss number of instances
-        Rectangle.number_of_instances += 1               
+        Rectangle.number_of_instances += 1
+
     def area(self):
         """Return Rectangle area"""
         return self.__width * self.__height
