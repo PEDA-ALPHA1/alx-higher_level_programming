@@ -1,4 +1,6 @@
 #!/usr/bin/node
+// JS
+
 if (process.argv[2]) {
 	console.log(process.argv[2]);
 } else {
